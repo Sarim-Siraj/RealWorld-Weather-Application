@@ -15,8 +15,24 @@
 
 
     <div class="container">
-        <input class="mt-3 cs" type="text" name="" id="cityInp">
-        <button class="btn btn-light" onclick="checkWeather()">search</button>
+        <div class="row g-3 mt-4 justify-content-center">
+           
+            <div class="col-auto">
+              
+              <input id="cityInp" type="text" class=" cs"  placeholder="Enter City Name">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-light mb-3" onclick="checkWeather()">Search</button>
+            </div>
+        </div>
+        <!-- <div class="row g-3">
+            <div class="col-auto">
+                <input class="mt-3 cs" type="text" name="" id="cityInp">
+            </div>
+            <div class="col-auto">
+                <button class="btn btn-light mb-3" onclick="checkWeather()">search</button>
+            </div>
+        </div> -->
         <div class="row  weatherapi ">
             <div class="d-flex justify-content-between">
                 <div class="col-12 col-sm-12 col-md-6  col-lg-6	col-xl-6 ">
@@ -106,7 +122,7 @@
             <img class="notfound-img" src="./assets/not-found.png" alt="">
         </div>
         <div>
-            <h1>Search City</h1>
+            <h1>City Not Found</h1>
             <h4>Find out the weather condition of the city</h4>
         </div>
     </div>
@@ -117,82 +133,82 @@
     <div class="container weatherapi2 ">
         <div class="row ">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-12">
-                    <div class=" box3 mt-4">
-                        <div>
-                            <h5>Other Countries</h5>
+                <div class=" box3 mt-4">
+                    <div>
+                        <h5>Other Countries</h5>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-6 col-md-6 col-lg-6 col-xl-12 mt-3">
+                            <div class="box4">
+                                <div class="d-flex justify-content-between">
+                                    <h2 id="dubaiTem"></h2>
+
+                                    <img id="imgd" src="./assets/blank.png" alt="">
+
+                                </div>
+                                <div>
+                                    <p>DUBAI</p>
+                                </div>
+
+                            </div>
+
                         </div>
 
-                        <div class="row">
+                        <div class="col-6 col-md-6 col-lg-6 col-xl-12  mt-3">
+                            <div class="box4">
+                                <div class="d-flex justify-content-between">
+                                    <h2 id="makkahTem"></h2>
+                                    <img id="imgm" src="./assets/blank.png" alt="">
 
-                            <div class="col-6 col-md-6 col-lg-6 col-xl-12 mt-3">
-                                <div class="box4">
-                                    <div class="d-flex justify-content-between" >
-                                        <h2 id="dubaiTem"></h2>
-                                        
-                                        <img id="imgd" src="./assets/blank.png" alt="">
-
-                                    </div>
-                                    <div>
-                                        <p>DUBAI</p>
-                                    </div>
-
+                                </div>
+                                <div>
+                                    <p>MECCA</p>
                                 </div>
 
                             </div>
 
-                            <div class="col-6 col-md-6 col-lg-6 col-xl-12  mt-3">
-                                <div class="box4">
-                                    <div class="d-flex justify-content-between" >
-                                        <h2 id="makkahTem"></h2>
-                                        <img id="imgm" src="./assets/blank.png" alt="">
 
-                                    </div>
-                                    <div>
-                                        <p>MECCA</p>
-                                    </div>
+                        </div>
 
+                        <div class="col-6 col-md-6 col-lg-6 col-xl-12 mt-3">
+                            <div class="box4">
+                                <div class="d-flex justify-content-between">
+                                    <h2 id="medinaTem"></h2>
+                                    <img id="imgme" src="./assets/blank.png" alt="">
+
+                                </div>
+                                <div>
+                                    <p>MEDINA</p>
                                 </div>
 
 
                             </div>
 
-                            <div class="col-6 col-md-6 col-lg-6 col-xl-12 mt-3">
-                                <div class="box4">
-                                    <div class="d-flex justify-content-between" >
-                                        <h2 id="medinaTem"></h2>
-                                        <img id="imgme" src="./assets/blank.png" alt="">
 
-                                    </div>
-                                    <div>
-                                        <p>MEDINA</p>
-                                    </div>
+                        </div>
 
+                        <div class="col-6 col-md-6 col-lg-6 col-xl-6  mt-3">
+                            <div class="box4">
+                                <div class="d-flex justify-content-between">
+                                    <h2 id="canadaTem"></h2>
+                                    <img id="imgc" src="./assets/blank.png" alt="">
 
                                 </div>
-
+                                <div>
+                                    <p>CANADA</p>
+                                </div>
 
                             </div>
 
-                            <div class="col-6 col-md-6 col-lg-6 col-xl-6  mt-3">
-                                <div class="box4">
-                                    <div class="d-flex justify-content-between" >
-                                        <h2 id="canadaTem"></h2>
-                                        <img id="imgc" src="./assets/blank.png" alt="">
 
-                                    </div>
-                                    <div>
-                                        <p>CANADA</p>
-                                    </div>
-
-                                </div>
-
-
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 
